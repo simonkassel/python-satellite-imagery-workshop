@@ -1,0 +1,8 @@
+#!/bin/bash
+
+docker-compose run --rm \
+	-p 8888:8888 \
+	--no-deps \
+	-v $(pwd):/opt/src:rw \
+	--entrypoint 'jupyter notebook --allow-root --port=8888 --ip=0.0.0.0 --notebook-dir=/opt/src/' \
+	python-workshop

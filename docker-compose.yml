@@ -1,0 +1,10 @@
+version: "2.4"
+services:
+  python-workshop:
+    image: workshop
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/opt/src
+    working_dir: /opt/src
