@@ -17,7 +17,7 @@ Build the docker container, enter the following command on in the command prompt
 
 If you are on a Windows machine and this doesn't work, try using this command (copy and paste into terminal and hit enter):
 
-`docer-compose.exe build`
+`docker-compose.exe build`
 
 This will take 10 minutes or so.
 
@@ -35,10 +35,10 @@ docker-compose run --rm \
 Similar to the previous step, if that doesn't work, try this:
 
 ```
-docker-compose.exe run --rm \
+docker-compose run --rm \
 	-p 8888:8888 \
 	--no-deps \
-	-v $(pwd):/opt/src:rw \
+	-v ${pwd}:/opt/src:rw \
 	--entrypoint 'jupyter notebook --allow-root --port=8888 --ip=0.0.0.0 --notebook-dir=/opt/src/' \
 	python-workshop
 ```
