@@ -7,7 +7,7 @@ Materials for 1/21/21 DataPhilly workshop
 *Requirements:*
 * [Docker](https://docs.docker.com/get-docker/)
 
-The content of this workshop is in a jupyter notebook (`Python_satellite_imagery_workshop.ipynb`) that is set up to run in a Docker environment. Install [Docker] if you have not already done so.
+The content of this workshop is in a jupyter notebook (`Python_satellite_imagery_workshop.ipynb`) that is set up to run in a Docker environment. Install [Docker](https://docs.docker.com/get-docker/) if you have not already done so. __This will take a little while, so make sure to do it ahead of time!__
 
 Clone (or download) this repo then open a command prompt or terminal and [navigate to](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/) the location of this repository. 
 
