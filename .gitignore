@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 
 scene.tif
+sample.tif
+buildings-all-features.geojson
