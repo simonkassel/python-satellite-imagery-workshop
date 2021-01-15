@@ -32,7 +32,7 @@ docker-compose run --rm \
 	python-workshop
 ```
 
-Similar to the previous step, if that doesn't work, try this:
+If you are on a windows machine, you may need to use this version instead
 
 ```
 docker-compose run --rm \
