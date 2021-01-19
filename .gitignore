@@ -132,3 +132,5 @@ scene.tif
 sample.tif
 buildings-all-features.geojson
 buildings/
+bldg-raster.tif
+rasterize-bldgs.geojson
