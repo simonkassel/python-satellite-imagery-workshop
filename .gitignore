@@ -131,3 +131,4 @@ dmypy.json
 scene.tif
 sample.tif
 buildings-all-features.geojson
+buildings/
