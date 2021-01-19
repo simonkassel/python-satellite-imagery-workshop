@@ -8,3 +8,5 @@ shapely==1.7.1
 rasterio==1.1.8
 matplotlib==3.3.3
 descartes==1.1.0
+pyproj==2.6.0
+rtree
