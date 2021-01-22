@@ -67,3 +67,10 @@ Once those are set up, you will need to add all of the dependencies in `requirem
 Once these are done, you can start the Jupyter server locally by running `jupyter notebook` and opening up the resulting link in your browser.
 
 It may be useful to try running the notebook before the workshop to ensure that everything istalled correctly.
+
+## If you would like to use Google Colab instead
+
+1. Download the Jupyter notebook specifically for colab [https://github.com/simonkassel/python-satellite-imagery-workshop/blob/main/Python_satellite_imagery_workshop.ipynb](https://github.com/simonkassel/python-satellite-imagery-workshop/blob/main/Python_satellite_imagery_workshop.ipynb)
+1. Upload the notebook to your Google Drive.
+1. In Google Drive, right click on the notebook, hover over "Open With" and select "Google Colaboratory".
+1. Make sure you run the first two code cells to pip install package dependencies and clone the Github repository before trying to run any other cells.
